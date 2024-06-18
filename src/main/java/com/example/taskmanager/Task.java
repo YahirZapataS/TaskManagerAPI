@@ -1,10 +1,9 @@
-package com.example.taskmanager.model;
+package com.example.taskmanager;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.example.taskmanager.NotBlank;
-
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Data
@@ -13,6 +12,7 @@ public class Task {
 
     @Id
     private String id;
+
     @NotBlank(message = "Title is mandatory")
     private String title;
 
