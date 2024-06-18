@@ -29,6 +29,6 @@ Para más detalles sobre cómo usar la API, consulta la documentación generada 
 
 ## Uso
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/taskmanager.git`
+1. Clona el repositorio: `git clone https://github.com/tu-usuario/TaskManagerAPI.git`
 2. Construye la aplicación: `mvn clean package`
 3. Ejecuta la aplicación: `java -jar target/taskmanager-0.0.1-SNAPSHOT.jar`
