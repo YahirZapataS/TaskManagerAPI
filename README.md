@@ -17,10 +17,6 @@ La API TaskManager proporciona un sistema de gestión de tareas simple y eficien
 - **Lombok**: Reduce el código boilerplate en las clases Java.
 - **MapStruct**: Para mapeo de objetos entre capas del sistema.
 
-## Diagrama de Despliegue
-
-![Diagrama de Despliegue](deployment-diagram.png)
-
 ## Documentación
 
 Para más detalles sobre cómo usar la API, consulta la documentación generada automáticamente con Swagger. La API proporciona endpoints RESTful para realizar las siguientes operaciones:
